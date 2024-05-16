@@ -1,10 +1,15 @@
 
+import MovieList from "./MovieList";
+
+
 function FavList() {
+
+
     return (
         <>
-            <h1>FavList</h1>
+            <MovieList isFavPage={true} />
         </>
-    );
+    )
 }
 
 export default FavList;
